@@ -29,7 +29,8 @@ public class ReactWheelCurvedPicker extends WheelCurvedPicker {
     private List<Integer> mValueData;
     private Integer mLineColor = Color.BLACK; // Default line color
     private boolean isLineGradient = false;    // By default line color is not a gradient
-    private Integer mLinegradientFrom = Color.BLACK; // Default starting gradient color
+    //private Integer mLinegradientFrom = Color.BLACK; // Default starting gradient color
+    private Integer mLinegradientFrom = 0xFF323232; // Separator color - Hyundai Main Dark #323232
     //private Integer mLinegradientTo = Color.WHITE; // Default end gradient color
     private Integer mLinegradientTo = 0xFF323232; // Separator color - Hyundai Main Dark #323232
 
